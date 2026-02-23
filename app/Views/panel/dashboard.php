@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel de Control</title>
+    <title>Panel de Control | <?=$nombre_pagina?></title>
     <style>
         /* Estilos básicos para darle forma al panel */
         body { 
@@ -89,7 +89,7 @@
 <body>
 
     <div class="sidebar">
-        <h2>Admin Panel</h2>
+        <h2><?=$nombre_pagina?></h2>
         <a href="#">🏠 Inicio</a>
         <a href="#">📋 Gestión de Proyectos</a>
         <a href="#">🛡️ Auditoría de Redes</a>

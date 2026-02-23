@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Usuario;
 
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -9,6 +9,6 @@ class Login extends BaseController
 {
     public function index(): string
     {
-        return view('Usuarios/login');
+        return view('usuario/login');
     }
 }
