@@ -12,8 +12,8 @@ class Dashboard extends BaseController
     private function load_data(){
         $data = array();
         //Cargue información global o específica
-        $data['nombre_pagina'] = 'Dashboard';
-        $data['titulo_pagina'] = 'Admin Panel';
+        $data['nombre_pagina'] = 'AdminLTE 3';
+        $data['titulo_pagina'] = 'AdminLTE 3 | Dashboard';
         //Statment SQL
         return $data;
     }// end load_data
