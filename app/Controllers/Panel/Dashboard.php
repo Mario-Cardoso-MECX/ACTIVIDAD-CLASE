@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Panel;
 
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -9,6 +9,6 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('dahsboard');
+        return view('panel/dahsboard');
     }
 }
