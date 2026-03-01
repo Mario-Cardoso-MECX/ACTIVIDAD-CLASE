@@ -86,6 +86,8 @@ defined('DIR_RECUERSOS_FONTS') || define('DIR_RECUERSOS_FONTS', 'recursos_inicio
 defined('DIR_RECUERSOS_IMAGES') || define('DIR_RECUERSOS_IMAGES', 'recursos_inicio_sesion/images');
 defined('DIR_RECUERSOS_JS') || define('DIR_RECUERSOS_JS', 'recursos_inicio_sesion/js');
 
-defined('DIR_RECUERSOS_PANEL_PAGES') || define('DIR_RECUERSOS_PANEL_PAGES', 'recursos_panel/pages');
-defined('DIR_RECUERSOS_PANEL_DIST') || define('DIR_RECUERSOS_PANEL_DIST', 'recursos_panel/dist');
+
 defined('DIR_RECUERSOS_PANEL_PLUGINS') || define('DIR_RECUERSOS_PANEL_PLUGINS', 'recursos_panel/plugins');
+defined('DIR_RECUERSOS_PANEL_JS') || define('DIR_RECUERSOS_PANEL_JS', 'recursos_panel/js');
+defined('DIR_RECUERSOS_PANEL_CSS') || define('DIR_RECUERSOS_PANEL_CSS', 'recursos_panel/css');
+defined('DIR_RECUERSOS_PANEL_IMG') || define('DIR_RECUERSOS_PANEL_IMG', 'recursos_panel/img');
