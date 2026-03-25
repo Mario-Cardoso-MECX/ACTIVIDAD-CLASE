@@ -13,7 +13,20 @@ class Dashboard extends BaseController
         $data = array();
         //Cargue información global o específica
         $data['nombre_pagina'] = 'AdminLTE 3';
-        $data['titulo_pagina'] = 'AdminLTE 3 | Dashboard';
+        $data['titulo_pagina'] = 'Usuarios';
+
+        $breadcrumb = array(
+            array(
+                'href' => route_to("dashboard"),
+                'titulo' => 'Usuarios',
+            ),
+            array(
+                'href' => '#',
+                'titulo' => 'Usuario Nuevo',
+            )
+        );
+        $data['breadcrumb_panel'] = breadcrumb_panel($data['titulo_pagina'], $breadcrumb);
+
         //Statment SQL
         return $data;
     }// end load_data
