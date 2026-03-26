@@ -32,6 +32,7 @@ class Dashboard extends BaseController
     }// end load_data
 
     private function create_view($name_view = '', $content = array()){
+        $content["menu_lateral"] = (crear_menu_panel());
         return view($name_view, $content);
     }//end create_view
 
